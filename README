@@ -1,0 +1,11 @@
+Projeto de estrutura organizacional na Google Cloud Platform (GCP) simulando a empresa fictícia Gaffree Corp.
+
+A organização foi modelada com foco na área de TI, utilizando boas práticas como:
+- Separação de ambientes (Desenvolvimento, Homologação e Produção)
+- Criação de projetos por ambiente
+- Uso de pastas para organização lógica
+- Controle de acesso com grupos de IAM (Dev, QA, Ops e Segurança)
+
+O objetivo é demonstrar como estruturar projetos em nuvem de forma escalável, organizada e segura.
+
+
