@@ -1,11 +1,39 @@
-Projeto de estrutura organizacional na Google Cloud Platform (GCP) simulando a empresa fictícia Gaffree Corp.
+# Estrutura Organizacional na GCP – Gaffree Corp
 
-A organização foi modelada com foco na área de TI, utilizando boas práticas como:
-- Separação de ambientes (Desenvolvimento, Homologação e Produção)
+Este projeto apresenta uma estrutura organizacional simulada na **Google Cloud Platform (GCP)** para a empresa fictícia **Gaffree Corp**, focada na área de **Tecnologia da Informação (TI)**.
+
+## 🎯 Objetivo
+
+Demonstrar boas práticas de organização de projetos em nuvem, incluindo:
+
+- Separação de ambientes (Desenvolvimento, Homologação, Produção)
+- Organização lógica por pastas
 - Criação de projetos por ambiente
-- Uso de pastas para organização lógica
-- Controle de acesso com grupos de IAM (Dev, QA, Ops e Segurança)
+- Grupos de acesso baseados em função (RBAC)
+- Governança e controle via IAM
 
-O objetivo é demonstrar como estruturar projetos em nuvem de forma escalável, organizada e segura.
+## 🗂️ Estrutura Proposta
+
+- **Organização**: Gaffree Corp
+  - **Pasta**: TI
+    - **Projetos**:
+      - `app-dev`
+      - `api-hml`
+      - `backend-prod`
+  - **Grupos de Acesso**:
+    - `devs@gaffreecorp.com` – acesso a projetos de desenvolvimento
+    - `qa@gaffreecorp.com` – acesso a homologação
+    - `ops@gaffreecorp.com` – acesso à produção
+    - `security@gaffreecorp.com` – auditoria em todos os projetos
+
+## 📌 Diagrama
+
+Abaixo está o diagrama da estrutura representando a hierarquia organizacional e os grupos de acesso.
+
+![Diagrama GCP - Gaffree Corp](diagrama-gcp-gaffreecorp.png)
+
+## 📚 Sobre
+
+Este projeto faz parte do curso **Google Cloud Platform Specialist** da **DIO** e tem como objetivo a aplicação prática dos conceitos aprendidos durante o módulo de governança na nuvem.
 
 
